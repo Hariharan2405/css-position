@@ -1,0 +1,137 @@
+*{
+	background-color:gray;
+	font-size:20px;
+}
+.a1,.a2,.a3{
+	border:2px solid red;
+	width:500px;
+	height:500px;
+	padding:20px;
+	margin:50px;
+}
+p{
+	
+}
+.a1 .p1{
+	border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:skyblue;
+	position:relative;
+	/* top:-50px; */
+	bottom:100px;
+	left:100px;
+}
+.a1 .p2{
+	border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:white;
+	position:relative;
+	top:0;
+	left:300px;
+}
+ .a1 .p3{
+	 border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:green;
+}
+.a2{
+	position:relative;
+}
+.a2 .p1{
+	border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:skyblue;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.a2 .p2{
+	border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:white;
+	position:absolute;
+	right:0;
+}
+ .a2 .p3{
+	 border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:green;
+	position:absolute;
+	bottom:0;
+}
+.a3 .p1{
+	border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:skyblue;
+	position:fixed;
+	top:250px;
+	left:600px;
+}
+.a3 .p2{
+	border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:white;
+	/* position:fixed; */
+	/* right:0; */
+}
+.a3 .p3{
+	border:2px solid red;
+	width:100px;
+	height:100px;
+	padding:20px;
+	margin:20px;
+	background-color:green;
+	/* position:; */
+	/* bottom:0; */
+}
+.a4 .p1{
+	background-color:skyblue;
+	border:none;
+	width:100%;
+	
+}
+.a4 .p2{
+	width:100%;
+	position:sticky;
+	top:0;
+}
+.a4 .p2 li{
+	display:inline-block;
+	background-color:white;
+	list-style:none;
+	padding:10px;
+	line-height:25px;
+	color:indigo;
+}
+.a4 .p2 ul{
+	background-color:white;
+}
+.a4 .p3{
+	background-color:green;
+	/* position:sticky; */
+	
+}
